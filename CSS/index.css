@@ -2,9 +2,11 @@
     --vermelho: #e50914;
     --preto: #141414;
 }
+/*elementos base*/
 body {
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
 }
 header .container {
     display: flex;
@@ -20,12 +22,28 @@ header nav a {
     color: #aaa;
     text-decoration: none;
     margin-right: 10px;
-    
+
 }
 header nav a:hover{
     color: #ffffff;
 }
-header nav {
-    
 
+/*filme principal*/
+.filme-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url(../IMG/one-piece-gold.jpg);
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+.titulo {
+    font-size: 40px;
 }
