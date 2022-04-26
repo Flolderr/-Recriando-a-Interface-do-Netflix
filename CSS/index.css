@@ -5,7 +5,7 @@
 /*elementos base*/
 body {
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'arial', Times, serif;
     color: #ffffff;
 }
 header .container {
@@ -78,4 +78,7 @@ header nav a:hover{
 .box-filmes {
     width: 100%;
     height: 100%;
+}
+.carrosel-animes {
+    margin-top: 5px;
 }
