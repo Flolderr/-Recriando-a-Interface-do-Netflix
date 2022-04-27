@@ -13,6 +13,7 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 60px;
 }
 header .logo {
     color: var(--vermelho);
@@ -32,6 +33,7 @@ header nav a:hover{
 .filme-principal {
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url(../IMG/one-piece-gold.jpg);
+    background-repeat: no-repeat;
     
     height: 400px;
     background-size: cover;
@@ -69,11 +71,21 @@ header nav a:hover{
     margin-right: 8px;
 }
 
-.container {
-    margin-left: 20px;
-}
+
 .filme-principal .container {
     width: 70%;
+}
+.titulo-carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.titulo-carrossel h3 {
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 .box-filmes {
     width: 100%;
@@ -81,4 +93,37 @@ header nav a:hover{
 }
 .carrosel-animes {
     margin-top: 5px;
+}
+.owl-dots, .owl-nav {
+    display: none;
+}
+.episodios {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.episodios-recentes {
+    width: 95%;
+    text-align: center;
+}
+.lista-animes {
+    align-items: center;
+}
+.item-ep {
+    display: inline-block;
+}
+.item-ep .box-episodio {
+    width: 240px;
+    height: 360px;
+    margin: 5px;
+}
+.credenciais {
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000040;
+    color: #aaa;
 }
